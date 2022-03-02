@@ -10,22 +10,26 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/489-524.png"
+          "img": "/img/uploads/489-524.png",
+          "mobile_img": "/img/uploads/489-524.png"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/490-524.png"
+          "img": "/img/uploads/490-524.png",
+          "mobile_img": "/img/uploads/490-524.png"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/491-524.png"
+          "img": "/img/uploads/491-524.png",
+          "mobile_img": "/img/uploads/491-524.png"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/492-524.png"
+          "img": "/img/uploads/492-524.png",
+          "mobile_img": "/img/uploads/492-524.png"
         }
       ]
     },
