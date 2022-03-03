@@ -42,6 +42,20 @@
       "headless": false,
       "limit": 12,
       "page": 1
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/492-524.png"
+        },
+        {
+          "img": "/img/uploads/491-524.png"
+        },
+        {
+          "img": "/img/uploads/489-524.png"
+        }
+      ]
     }
   ]
 }
