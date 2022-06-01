@@ -52,13 +52,19 @@ const hasMegamenu = header.desktop_megamenu
   <% if (header.marketing_stripe) { %>
     <% if (header.marketing_stripe.text) { %>
       <% if (header.marketing_stripe.link) { %>
-        <a
-          class="top-bar__countdown"
-          style="<%= marketingStripeStyle %>"
-          href="<%= header.marketing_stripe.link %>"
-        >
-          <%= header.marketing_stripe.text %>
-        </a>
+        <div class="topo">
+          <div class="col-12 col-md-12">
+            <a
+              class="top-bar__countdown"
+              style="<%= marketingStripeStyle %>"
+              href="<%= header.marketing_stripe.link %>"
+            >
+              <%= header.marketing_stripe.text %>
+            </a>
+          </div>
+          <div id="entrar" class="col-md-2 d-none d-md-inline"><a href="/app/#/account/">Entrar ou Criar Conta</a>
+          </div>          
+        </div>
       <% } else { %>
         <div class="top-bar__countdown" style="<%= marketingStripeStyle %>">
           <%= header.marketing_stripe.text %>
@@ -166,7 +172,7 @@ const hasMegamenu = header.desktop_megamenu
 
           <a
             id="user-button"
-            class="btn btn-lg"
+            class="btn btn-lg d-md-none"
             role="button"
             href="/app/#/account/"
             title="<%= _.dictionary('myAccount') %>"
@@ -215,14 +221,14 @@ const hasMegamenu = header.desktop_megamenu
             <input
               type="search"
               name="term"
-              placeholder="<%= _.dictionary('searchProducts') %>"
+              placeholder="O que está procurando ..."
               aria-label="<%= _.dictionary('searchProducts') %>"
               class="header__search-input form-control"
               id="search-input"
             >
             <button
               type="submit"
-              class="header__search-btn"
+              class="header__search-btn d-md-none"
               aria-label="<%= _.dictionary('searchProducts') %>"
             >
               <i class="i-search"></i>
