@@ -52,19 +52,13 @@ const hasMegamenu = header.desktop_megamenu
   <% if (header.marketing_stripe) { %>
     <% if (header.marketing_stripe.text) { %>
       <% if (header.marketing_stripe.link) { %>
-        <div class="topo">
-          <div class="col-12 col-md-12">
-            <a
-              class="top-bar__countdown"
-              style="<%= marketingStripeStyle %>"
-              href="<%= header.marketing_stripe.link %>"
-            >
-              <%= header.marketing_stripe.text %>
-            </a>
-          </div>
-          <div id="entrar" class="col-md-2 d-none d-md-inline"><a href="/app/#/account/">Entrar ou Criar Conta</a>
-          </div>          
-        </div>
+        <a
+          class="top-bar__countdown"
+          style="<%= marketingStripeStyle %>"
+          href="<%= header.marketing_stripe.link %>"
+        >
+          <%= header.marketing_stripe.text %>
+        </a>
       <% } else { %>
         <div class="top-bar__countdown" style="<%= marketingStripeStyle %>">
           <%= header.marketing_stripe.text %>
@@ -179,6 +173,7 @@ const hasMegamenu = header.desktop_megamenu
           >
             <i class="i-user"></i>
           </a>
+          <a class="col-md-2 d-none d-md-inline" href="/app/#/account/">Entrar ou Criar Conta</a>
           <a
             id="cart-button"
             class="btn btn-lg"

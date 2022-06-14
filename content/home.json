@@ -44,24 +44,18 @@
       "shuffle": true,
       "collection_id": null,
       "sort": "offers",
-      "title": "",
+      "title": "Escolha sua Bolsa",
       "headless": false,
       "limit": 12,
       "page": 1
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/492-524.png"
-        },
-        {
-          "img": "/img/uploads/491-524.png"
-        },
-        {
-          "img": "/img/uploads/489-524.png"
-        }
-      ]
+      "type": "custom-content",
+      "markdown": "<a id=\"instaHome\" href=\"https://www.instagram.com/barbaravitalofficial\" target=\"_blank\"><i class=\"i-instagram\"></i><span id=\"nomeInsta\"> @barbaravitalofficial</span></a>"
+    },
+    {
+      "type": "custom-content",
+      "markdown": "<iframe src=\"https://snapwidget.com/embed/918299\" class=\"snapwidget-widget\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" style=\"border:none; overflow:hidden;  width:1200px; height:400px\"></iframe>"
     }
   ]
 }
