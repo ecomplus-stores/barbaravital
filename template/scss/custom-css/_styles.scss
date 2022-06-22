@@ -99,6 +99,11 @@
       }
       background: #000
     }
+    &__submenu {
+      a {
+        color: #000 !important
+      }
+    }
 }
 .top-bar__nav {
     * {
@@ -121,4 +126,23 @@
     #nomeInsta:hover {
         color: #ccc
     }
+}
+.page--album {
+  .container {
+    padding-top: 10%;
+  }
+  h5 {
+    text-align: center;
+  }
+  .card {
+    border: none
+  }
+  img {
+    max-height: 192px;
+  }
+}
+.photoimages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
