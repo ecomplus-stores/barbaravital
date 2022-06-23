@@ -269,6 +269,7 @@ const hasMegamenu = header.desktop_megamenu
                 >
                   <%= name %>
                 </a>
+                
                 <%- $categoryLink %>
                 <%  if (slug && hasMegamenu) { %>
                   <% const subcategories = _.categories.filter(({ parent }) => parent && parent.slug === slug) %>
@@ -290,6 +291,8 @@ const hasMegamenu = header.desktop_megamenu
                 <% } %>
               </div>
             <% }) %>
+          
+            <a href="/album" class="header__category">Fotos</a>
           </nav>
         </div>
       <% } %>

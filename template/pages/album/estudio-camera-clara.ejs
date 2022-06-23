@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="<%= _.lang.replace('_', '-') %>" dir="ltr">
+
+<head>
+  <%- await include('@/head') %>
+</head>
+
+<body
+  id="page-<%= _.pageName %>"
+  class="_<%= _.route.path.replace(/\//g, '_') %>"
+  <% if (_.route.resource) { %>
+    data-resource="<%= _.route.resource %>"
+    data-resource-id="<%= _.state._id %>"
+  <% } else if (_.route.collection) { %>
+    data-cms-collection="<%= _.route.collection %>"
+  <% } %>
+>
+  <%- await include('@/layout/menu') %>
+
+  <main role="main" id="main">
+    <%- await include('@/layout/header') %>
+    <article id="content" class="page page--album--museu">
+      <div class="sections pb-1 pb-sm-2 pb-lg-4">
+        <div class="container">
+          <div class="row">
+                <div class="col-md-4 col-12">
+                    <img id="paginas_rptCadaFoto_imgAlbumCapa_0" class="img-responsive" src="/img/uploads/263-524.webp">
+                </div>
+                <div class="col-md-4 col-12">
+                    <img id="paginas_rptCadaFoto_imgAlbumCapa_1" class="img-responsive" src="/img/uploads/264-524.webp">
+                </div>
+                <div class="col-md-4 col-12">
+                    <img id="paginas_rptCadaFoto_imgAlbumCapa_2" class="img-responsive" src="/img/uploads/265-524.webp">
+                </div>
+                <div class="col-md-4 col-12">
+                    <img id="paginas_rptCadaFoto_imgAlbumCapa_3" class="img-responsive" src="/img/uploads/266-524.webp">
+                </div>
+                <div class="col-md-4 col-12">
+                    <img id="paginas_rptCadaFoto_imgAlbumCapa_4" class="img-responsive" src="/img/uploads/267-524.webp">
+                </div>
+                <div class="col-md-4 col-12">
+                    <img id="paginas_rptCadaFoto_imgAlbumCapa_5" class="img-responsive" src="/img/uploads/268-524.webp">
+
+                </div>
+                <div class="col-md-4 col-12">
+                    <img id="paginas_rptCadaFoto_imgAlbumCapa_6" class="img-responsive" src="/img/uploads/269-524.webp">
+
+                </div>
+                <div class="col-md-4 col-12">
+                    <img id="paginas_rptCadaFoto_imgAlbumCapa_7" class="img-responsive" src="/img/uploads/270-524.webp">
+
+                </div>
+                <div class="col-md-4 col-12">
+                    <img id="paginas_rptCadaFoto_imgAlbumCapa_8" class="img-responsive" src="/img/uploads/271-524.webp">
+
+                </div>
+                <div class="col-md-4 col-12">
+                    <img id="paginas_rptCadaFoto_imgAlbumCapa_9" class="img-responsive" src="/img/uploads/272-524.webp">
+                </div>
+                <div class="col-md-4 col-12"><img id="paginas_rptCadaFoto_imgAlbumCapa_10" class="img-responsive" src="/img/uploads/273-524.webp"></div>
+                <div class="col-md-4 col-12"><img id="paginas_rptCadaFoto_imgAlbumCapa_11" class="img-responsive" src="/img/uploads/274-524.webp"></div>
+                <div class="col-md-4 col-12"><img id="paginas_rptCadaFoto_imgAlbumCapa_12" class="img-responsive" src="/img/uploads/275-524.webp"></div>
+                <div class="col-md-4 col-12"><img id="paginas_rptCadaFoto_imgAlbumCapa_13" class="img-responsive" src="/img/uploads/276-524.webp"></div>
+                <div class="col-md-4 col-12"><img id="paginas_rptCadaFoto_imgAlbumCapa_14" class="img-responsive" src="/img/uploads/277-524.webp"></div>
+                <div class="col-md-4 col-12"><img id="paginas_rptCadaFoto_imgAlbumCapa_15" class="img-responsive" src="/img/uploads/278-524.webp"></div>
+                <div class="col-md-4 col-12"><img id="paginas_rptCadaFoto_imgAlbumCapa_16" class="img-responsive" src="/img/uploads/279-524.webp"></div>
+                <div class="col-md-4 col-12"><img id="paginas_rptCadaFoto_imgAlbumCapa_17" class="img-responsive" src="/img/uploads/280-524.webp"></div>
+                <div class="col-md-4 col-12"><img id="paginas_rptCadaFoto_imgAlbumCapa_18" class="img-responsive" src="/img/uploads/281-524.webp"></div>
+                <div class="col-md-4 col-12"><img id="paginas_rptCadaFoto_imgAlbumCapa_19" class="img-responsive" src="/img/uploads/282-524.webp"></div>
+                <div class="col-md-4 col-12"><img id="paginas_rptCadaFoto_imgAlbumCapa_20" class="img-responsive" src="/img/uploads/283-524.webp"></div>
+                <div class="col-md-4 col-12"><img id="paginas_rptCadaFoto_imgAlbumCapa_21" class="img-responsive" src="/img/uploads/284-524.webp"></div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <%- await include('@/layout/footer') %>
+</main>
+
+<%- await include('@/json') %>
+<%- await include('@/scripts') %>
+</body>
+
+</html>
+    
