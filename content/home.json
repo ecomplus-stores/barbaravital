@@ -50,6 +50,21 @@
       "page": 1
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "62978be6ac0cb4200ffa2018:categories:New In:/categoria/new-in"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "sort": "sales",
+      "title": "Best Sellers"
+    },
+    {
       "type": "custom-content",
       "markdown": "<a id=\"instaHome\" href=\"https://www.instagram.com/barbaravitalofficial\" target=\"_blank\"><i class=\"i-instagram\"></i><span id=\"nomeInsta\"> @barbaravitalofficial</span></a>"
     },
