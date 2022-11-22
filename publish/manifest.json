@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.15ca7cebb8fd84751f947e6a97af4dda.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.4df16f177c0ab118fd1dc219bfd551c9.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.7ee9bc3542194bc3670d2748af0899a7.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.6dec7e4801c1b64b15fecc961a9a698d.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.3027228a47f84faedf5401e4c59235fd.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "barbaravital",
+  "short_name": "Bárbara Vital",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Loja multimarcas virtual de bolsas de luxo importadas da Itália. \nMarcas italianas exclusivas e tradicionais que produzem bolsas de alta qualidade, de forma artesanal e com design único e atemporal. ",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
